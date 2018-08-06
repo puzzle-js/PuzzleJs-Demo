@@ -1,0 +1,9 @@
+{
+  "name": "puzzlejs-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puzzle-microfrontends": "^3.9.6"
+  }
+}

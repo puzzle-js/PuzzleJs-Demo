@@ -1,0 +1,25 @@
+{
+  "name": "user-gateway",
+  "port": 4446,
+  "url": "http://localhost:4446/",
+  "fragments": [
+    {
+      "name": "sidemenu",
+      "testCookie": "sidemenu_test",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "assets": [],
+          "dependencies": []
+        }
+      },
+      "render": {
+        "placeholder": true,
+        "url": ["/"],
+        "middlewares": []
+      }
+    }
+  ],
+  "api": [],
+  "fragmentsFolder": "./src/fragments"
+}

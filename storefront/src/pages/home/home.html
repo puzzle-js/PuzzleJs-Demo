@@ -1,0 +1,110 @@
+<script>
+  const path = require('path');
+  module.exports = require(path.join(process.cwd(), './storefront/src/pages/home/home.js'));
+</script>
+
+<template>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>PuzzleJs Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="icon" href="/static/favicon.png" />
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/static/css/blog.css" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="blog-masthead">
+        <div class="container">
+            <nav class="nav blog-nav">
+                <a class="nav-link active" href="#">Navigation</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="blog-header">
+        <div class="container">
+            <fragment from="browsing-gateway" name="header"> </fragment>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 offset-sm-1 blog-sidebar">
+                <div class="sidebar-module">
+                    <form>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <div style="width: 100%"><label for="header">Navigation Response Time: <span id="navigation_input_ms">1200</span>ms</label></div>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="10000" value="1" class="slider" id="navigation_input">
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div style="width: 100%"><label for="header">Header Response Time: <span id="header_input_ms">1200</span>ms</label></div>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="10000" value="1" class="slider" id="header_input" />
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div style="width: 100%"><label for="header">Post 1 Response Time: <span id="post1_input_ms">1200</span>ms</label></div>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="10000" value="1" class="slider" id="post1_input" />
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div style="width: 100%"><label for="header">Post 2 Response Time: <span id="post2_input_ms">1200</span>ms</label></div>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="10000" value="1" class="slider" id="post2_input" />
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div style="width: 100%"><label for="header">Side Menu Response Time: <span id="sidemenu_input_ms">1200</span>ms</label></div>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="10000" value="1" class="slider" id="sidemenu_input" />
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="btn btn-primary" id="refresh">Refresh With Settings</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-4 blog-main">
+                <p>This section is coming from Browsing Gateway</p>
+                <div class="blog-post">
+                    <fragment from="browsing-gateway" name="post1"> </fragment>
+                </div>
+
+                <div class="blog-post">
+                    <fragment from="browsing-gateway" name="post2"> </fragment>
+                </div>
+            </div>
+
+            <div class="col-sm-3 offset-sm-1 blog-sidebar">
+                <fragment from="user-gateway" name="sidemenu"> </fragment>
+            </div><!-- /.blog-sidebar -->
+
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+        <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"> </script>
+    <script src="/static/js/jquery.min.js"> </script>
+    <script src="/static/js/bootstrap.min.js"> </script>
+    <script src="/static/js/script.js"> </script>
+    </body>
+    </html>
+</template>
