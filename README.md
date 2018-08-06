@@ -5,7 +5,7 @@ Implementation of 2 gateways and a storefront project to render homepage of a we
 
 ## Async fragment loading without order
 
-![Demo](https://media.giphy.com/media/t9kUPfkj5zps21CHXL/giphy.gif)
+![Demo](https://media.giphy.com/media/9V1uzzopXQC4zOgyAV/giphy.gif)
 
 
 ## Install and test
