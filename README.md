@@ -21,6 +21,6 @@ Implementation of 2 gateways and a storefront project to render homepage of a we
 
 Change the fragment loading times using settings panel
 
-![Settings Panel](http://i67.tinypic.com/21mr9yt.jpg)
+<img src="http://i67.tinypic.com/21mr9yt.jpg" width="300px"/>
 
 Click button `Refresh with settings` to update loading times
