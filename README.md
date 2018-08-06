@@ -2,7 +2,13 @@
 
 Implementation of 2 gateways and a storefront project to render homepage of a website with configurable panel
 
-To install simply
+
+## Async fragment loading without order
+
+![Demo](https://media.giphy.com/media/t9kUPfkj5zps21CHXL/giphy.gif)
+
+
+## Install and test
 
 ```bash
     git clone git@github.com:puzzle-js/PuzzleJs-Demo.git
@@ -10,7 +16,6 @@ To install simply
     yarn
     node index.js
 ```
-
 
 ## Modifying fragment render times
 
