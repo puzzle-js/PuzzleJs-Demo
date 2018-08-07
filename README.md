@@ -11,10 +11,10 @@ Implementation of 2 gateways and a storefront project to render homepage of a we
 ## Install and test
 
 ```bash
-    git clone git@github.com:puzzle-js/PuzzleJs-Demo.git
-    cd PuzzleJs-Demo
-    yarn
-    node index.js
+git clone git@github.com:puzzle-js/PuzzleJs-Demo.git
+cd PuzzleJs-Demo
+yarn
+node index.js
 ```
 
 ## Modifying fragment render times
