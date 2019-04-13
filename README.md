@@ -1,3 +1,6 @@
+# See updated [DEMO](https://github.com/puzzle-js/multi-project-demo)
+___
+
 # PuzzleJs Demo
 
 Implementation of 2 gateways and a storefront project to render homepage of a website with configurable panel
