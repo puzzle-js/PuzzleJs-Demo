@@ -1,4 +1,7 @@
 # See updated [DEMO](https://github.com/puzzle-js/multi-project-demo)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/puzzle-js/PuzzleJs-Demo.svg)](https://greenkeeper.io/)
+
 ___
 
 # PuzzleJs Demo
